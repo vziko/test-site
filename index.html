@@ -6,12 +6,22 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/datepicker.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.maskedinput.js"></script>
 	<script src="js/main.js"></script>
 
-
+	<script>
+		$(function () {
+			$('.dp4').datepicker({
+				format: 'dd-mm-yyyy'
+			});
+		});
+	</script>
 </head>
 <body>
 <!-- begin header -->
@@ -74,10 +84,10 @@
 						<ul>
 							<li class="parameters-header">
 								<div class="par-zag">Parameters</div>
-								<div class="date-group">
-									<input type="date" name="date-from">
+								<div class="date-group input-append date dp4" id="dp4" data-date="12-02-2012">
+									<input type="text" class="date" placeholder="from" name="date-from">
 									<div class="clear"></div>
-									<div class="calendar"></div>
+									<div class="add-on calendar"></div>
 								</div>
 							</li>
 							<li class="line line-bold"></li>
@@ -103,10 +113,10 @@
 					<div class="parameters-two">
 						<ul>
 							<li class="parameters-header">
-								<div class="date-group">
-									<input type="date" name="date-to">
+								<div class="date-group input-append date dp4" id="dp4" data-date="12-02-2012">
+									<input type="text" class="date" placeholder="to" name="date-to">
 									<div class="clear"></div>
-									<div class="calendar"></div>
+									<div class="add-on calendar"></div>
 								</div>
 							</li>
 							<li class="line line-bold"></li>

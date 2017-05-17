@@ -1134,39 +1134,6 @@ a:hover {
   background-color: #fff;
 }
 
-input[type="text"], textarea {
-  margin-top: 29px;
-  padding: 10px 19px;
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.44);
-  border-radius: 2px;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.44), inset 0 1px 2px rgba(0, 0, 0, 0.3);
-  font-size: 16px;
-  color: #333;
-}
-
-input[type="submit"] {
-  width: 170px;
-  text-align: center;
-  float: right;
-  font-size: 22px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 3px;
-  padding: 0;
-  color: #fff;
-  background-color: #4090db;
-}
-
-input[type="submit"]:hover {
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  background-color: #fff;
-  color: #4090db;
-}
-
 textarea {
   width: 100%;
   resize: none;
@@ -1174,27 +1141,27 @@ textarea {
 
 input[type="text"]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #000;
+  color: #262626;
 }
 
 input[type="text"]::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #000;
+  color: #262626;
 }
 
 input[type="text"]:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #000;
+  color: #262626;
 }
 
 input[type="text"]:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #000;
+  color: #262626;
 }
 
 input[type="text"]:-input-placeholder,
 textarea:-input-placeholder {
-  color: #000;
+  color: #262626;
 }
 
 #header {
